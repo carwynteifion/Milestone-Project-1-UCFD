@@ -1,104 +1,107 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dragon Courses
+Link to the live project here - ADD LINK
 
-Welcome USER_NAME,
+This is Dragon Courses' website. It is designed as a mobile-first responsive site for prospective students to easily access and navigate.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+MOCKUP IMAGE WITH LINK
 
-## Gitpod Reminders
+# User Experience
+- User stories
+  - First Time Visitor Goals
+    
+    a. As a first time visitor, I want to understand the site's purpose so I can determine if it is relevant to what I need.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    b. As a first time visitor, I want to learn about the courses on offer so I can make an informed choice on which is best suited to me.
 
-`python3 -m http.server`
+    c. As a first time visitor, I want to easily navigate through the site so I can find the information and content I need.
 
-A blue button should appear to click: _Make Public_,
+    d. As a first time visitor, I want to read some testimonials so I can determine if the organisation is trustworthy.
 
-Another blue button should appear to click: _Open Browser_.
+  - Returning Visitor Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    a. As a returning visitor, I want to contact the organisation easily, be it through a contact form or social media, so I can enquire for further details.
 
-A blue button should appear to click: _Make Public_,
+    b. As a returning visitor, I want to be able to easily sign up to the course that best fits my level of skill, so I can be emailed about a particular course's details.
 
-Another blue button should appear to click: _Open Browser_.
+  - Frequent Visitor Goals
+    
+    a. As a frequent visitor, I want to sign up to more advanced courses, so I can progress in my learning.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Design
+  - Colour Scheme
+    - The main colours used are light green for the backgrounds (bg-success) and white text, with yellow accents. These are used to blend with the colours of the hero image and to strengthen the connection with Wales, as the Welsh flag incorporates white and green.
+  - Typography
+    - The main font used throughout the site is Exo, with Sans Serif used as a fallback. Exo is used as it is stylish, easily readable and conveys a feeling of progress.
+    - Noto Sans JP is used for the site's title in the navbar, again with Sans Serif as a fallback. Noto Sans JP has more of a formal style while remaining easily readable. 
+  - Imagery
+    - I have used a hero image of close-up daffodils to emphasise the Welsh theme. Yellow catches the attention of the user, being one of the most attractive colours to the eye, and has an association with confidence, friendliness, and creativity.
 
-To log into the Heroku toolbelt CLI:
+- Wireframes
+  - Home Page - LINK
+  - Our Courses - LINK
+  - Contact Us - LINK
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Features
+- Responsive on mobile, tablet and desktop sizes
+- Interactive elements
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Technologies Used
+## Languages Used
+- HTML5
+- CSS3
 
-------
+## Frameworks, Libraries and Programs used
+1. Balsamiq - used in the design process to draw the site's wireframes.
+2. Google Fonts - used to import the INSERT FONTS HERE fonts into the style.css file.
+3. Font Awesome - used to add icons on each page of the site to improve UX.
+4. Git - used for version control via Gitpod. The terminal was used to commit and push code to GitHub.
+5. GitHub - used to store the project's pushed code from Git.
 
-## Release History
+INSERT ANY MORE FRAMEWORKS/LIBRARIES/PROGRAMS HERE
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Testing
+The W3C Markup and CSS Validators were used to validate each page to ensure the project was free from errors.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- W3C Markup Validator Results - LINK
+- W3C CSS Validator Results - LINK
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Testing User Stories from UX Section
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+INSERT USER STORY TESTING
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Further Testing
+TEST ON MULTIPLE BROWSERS
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+TEST MULTIPLE VIEWPORTS - MOBILE, TABLET, DESKTOP
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+TEST LINKING OF PAGES
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Known Bugs
+* Navbar-items do not snap underneath navbar-brand on smaller viewport widths and instead overflow out of view.
+* Testimonial elements are not centered on lower resolutions.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+# Deployment
+## GitHub Pages
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Forking
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Making a local clone
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Credits
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Code
 
-------
+## Content
 
-## FAQ about the uptime script
+## Media
 
-**Why have you added this script?**
+Daffodil Hero Image: https://www.thedaffodilperspective.org
+Testimonial image - Woman1: https://www.svgrepo.com/svg/169986/avatar
+Testimonial image - Woman2: https://www.svgrepo.com/svg/26996/avatar
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Acknowledgements
 
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+My mentor, Chris, for being such an inspiration
+My fiancee, Isadora, and her mum, Kay, for UX/bug testing this site.

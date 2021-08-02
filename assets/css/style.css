@@ -1,0 +1,124 @@
+
+/*------------------------------------------Colours*/
+
+/*------------------------------------------Special Paddings/Margins/Text*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+}
+
+.cta h1 {
+    color: #fff;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.cta a {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.why-learn h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.why-learn-sub {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.why-learn {
+    font-family: "Exo", sans-serif;
+    padding: 20px 0 15px 0;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Exo", sans-serif;
+}
+
+.testimonials h1 {
+    padding-bottom: 10px;
+}
+
+.testimonial-text {
+    padding-top: 20px;
+    margin-left: -10px;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------------------------Heading*/
+
+.main-image {
+    background-image: url("../img/main-image.png");
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.cta {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+nav {
+    border-bottom: 1px solid #fff;
+}
+
+/*------------------------------------------Hover.css*/
+
+/*------------------------------------------Footer*/
+
+.sign-up {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    padding-top: 20px;
+}
+
+.sign-up h1 {
+    font-weight: 500;
+}
+
+/*------------------------------------------Media Queries*/
