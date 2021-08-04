@@ -68,6 +68,7 @@ hr {
 
 .testimonials {
     padding-top: 10px;
+    padding-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: "Exo", sans-serif;
@@ -119,6 +120,36 @@ nav {
 
 .sign-up h1 {
     font-weight: 500;
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:visited {
+    color: yellow;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+input, select, label {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+label {
+    margin-top: 8px;
+}
+
+form {
+    padding-bottom: 15px;
+}
+
+.socials a {
+    font-size: 28px;
 }
 
 /*------------------------------------------Media Queries*/
