@@ -100,6 +100,7 @@ ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 Daffodil Hero Image: https://www.thedaffodilperspective.org
 Testimonial image - Woman1: https://www.svgrepo.com/svg/169986/avatar
 Testimonial image - Woman2: https://www.svgrepo.com/svg/26996/avatar
+Castle image: https://handluggageonly.co.uk/2015/02/23/15-fairytale-castles-you-must-see-in-wales/
 
 ## Acknowledgements
 

@@ -45,7 +45,7 @@ nav ul li {
     font-size: 18px;
 }
 
-.why-learn h1 {
+.why-learn h1, .courses h1 {
     font-weight: 600;
     font-size: 40px;
     margin-bottom: 10px;
@@ -56,7 +56,7 @@ nav ul li {
     font-size: 32px;
 }
 
-.why-learn {
+.why-learn, .courses {
     font-family: "Exo", sans-serif;
     padding: 20px 0 15px 0;
 }
@@ -108,8 +108,6 @@ nav {
     border-bottom: 1px solid #fff;
 }
 
-/*------------------------------------------Hover.css*/
-
 /*------------------------------------------Footer*/
 
 .sign-up {
@@ -150,6 +148,41 @@ form {
 
 .socials a {
     font-size: 28px;
+}
+
+#submit, #contact-submit {
+    background-color: yellow;
+    color: #2f2f2f;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+#name, #email, #course {
+    border-radius: 15px;
+}
+
+/*------------------------------------------Contact Form*/
+
+.contact-form {
+    font-family: "Exo", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+#contact-name, #contact-email, textarea {
+    border-radius: 15px;
+}
+
+.contact-image {
+    background-image: url("../img/castle.jpg");
+    height: 435px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
 /*------------------------------------------Media Queries*/

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Dragon, Courses, Welsh, Wales, Learn, Language">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Home | Dragon Courses - Learn Welsh</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand bg-success navbar-dark fixed-top uppercase" role="navigation">
+            <a href="index.html" id="title" class="navbar-brand">Dragon Courses <i class="fas fa-dragon"></i></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Our Courses</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</span></a></li>
+            </ul>
+        </nav>
+        <div class="contact-image">
+            <div class="contact-form row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col">
+                            <h1>Contact Us</h1>
+                        </div>
+                    </div>
+                    <form method="post" action="https://formdump.codeinstitute.net/">
+                        <label for="contact-name">Name:</label>
+                        <input type="text" id="contact-name" name="contact-name"><br>
+                        <label for="contact-email">Email:</label>
+                        <input type="email" id="contact-email" name="contact-email">
+                        <textarea name="message" id="message" cols="30" rows="7">Your message...</textarea>
+                        <input id="contact-submit" type="submit" value="Send!">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="row sign-up bg-success text-light no-gutters">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <h1>Sign Up Now!</h1>
+                    </div>
+                </div>
+                <div class="row sign-up-form">
+                    <div class="col">
+                        <form method="post" action="https://formdump.codeinstitute.net/" class="form-inline justify-content-center">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name">
+                            <label for="email">Email address:</label>
+                            <input type="email" id="email" name="email">
+                            <label for="course">Course:</label>
+                            <select id="course" name="course">
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                            </select>
+                            <input id="submit" type="submit" value="Start learning Welsh!">
+                        </form>
+                    </div>
+                </div>
+                <a class="text-decoration-none" href="courses.html">Or take a look at our courses</a>
+                <div class="row socials">
+                    <div class="col">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
