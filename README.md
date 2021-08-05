@@ -1,7 +1,7 @@
 # Dragon Courses
 Link to the live project here - ADD LINK
 
-This is Dragon Courses' website. It is designed as a mobile-first responsive site for prospective students to easily access and navigate.
+This is Dragon Courses' website. It is designed as a mobile-first responsive site for prospective students wanting to learn Welsh to easily access and navigate.
 
 MOCKUP IMAGE WITH LINK
 
@@ -52,7 +52,7 @@ MOCKUP IMAGE WITH LINK
 
 ## Frameworks, Libraries and Programs used
 1. Balsamiq - used in the design process to draw the site's wireframes.
-2. Google Fonts - used to import the INSERT FONTS HERE fonts into the style.css file.
+2. Google Fonts - used to import the Noto Sans JP and Exo fonts.
 3. Font Awesome - used to add icons on each page of the site to improve UX.
 4. Git - used for version control via Gitpod. The terminal was used to commit and push code to GitHub.
 5. GitHub - used to store the project's pushed code from Git.
@@ -80,7 +80,8 @@ ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 
 ## Known Bugs
 * Navbar-items do not snap underneath navbar-brand on smaller viewport widths and instead overflow out of view.
-* Testimonial elements are not centered on lower resolutions.
+* Visible white space on the right hand side of all pages.
+* Contact form div extends too far out to the right.
 
 # Deployment
 ## GitHub Pages
@@ -98,11 +99,15 @@ ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 ## Media
 
 Daffodil Hero Image: https://www.thedaffodilperspective.org
+
 Testimonial image - Woman1: https://www.svgrepo.com/svg/169986/avatar
+
 Testimonial image - Woman2: https://www.svgrepo.com/svg/26996/avatar
+
 Castle image: https://handluggageonly.co.uk/2015/02/23/15-fairytale-castles-you-must-see-in-wales/
 
 ## Acknowledgements
 
 My mentor, Chris, for being such an inspiration
+
 My fiancee, Isadora, and her mum, Kay, for UX/bug testing this site.
