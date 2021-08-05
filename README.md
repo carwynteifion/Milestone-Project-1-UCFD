@@ -29,7 +29,7 @@ MOCKUP IMAGE WITH LINK
 
 - Design
   - Colour Scheme
-    - The main colours used are light green for the backgrounds (bg-success) and white text, with yellow accents. These are used to blend with the colours of the hero image and to strengthen the connection with Wales, as the Welsh flag incorporates white and green.
+    - The main colours used are light green and white text, with yellow accents. These are used to blend with the colours of the hero image and to strengthen the connection with Wales, as the Welsh flag incorporates white and green. Sections using a white background and black text are used to aid in clearly separating areas of content.
   - Typography
     - The main font used throughout the site is Exo, with Sans Serif used as a fallback. Exo is used as it is stylish, easily readable and conveys a feeling of progress.
     - Noto Sans JP is used for the site's title in the navbar, again with Sans Serif as a fallback. Noto Sans JP has more of a formal style while remaining easily readable. 
@@ -51,11 +51,12 @@ MOCKUP IMAGE WITH LINK
 - CSS3
 
 ## Frameworks, Libraries and Programs used
-1. Balsamiq - used in the design process to draw the site's wireframes.
-2. Google Fonts - used to import the Noto Sans JP and Exo fonts.
-3. Font Awesome - used to add icons on each page of the site to improve UX.
-4. Git - used for version control via Gitpod. The terminal was used to commit and push code to GitHub.
-5. GitHub - used to store the project's pushed code from Git.
+1. Bootstrap 4.5.2 - used to style the site, and aid with responsive design.
+2. Balsamiq - used in the design process to draw the site's wireframes.
+3. Google Fonts - used to import the Noto Sans JP and Exo fonts.
+4. Font Awesome - used to add icons on each page of the site to improve UX.
+5. Git - used for version control via Gitpod. The terminal was used to commit and push code to GitHub.
+6. GitHub - used to store the project's pushed code from Git.
 
 INSERT ANY MORE FRAMEWORKS/LIBRARIES/PROGRAMS HERE
 
@@ -81,7 +82,7 @@ ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 ## Known Bugs
 * Navbar-items do not snap underneath navbar-brand on smaller viewport widths and instead overflow out of view.
 * Visible white space on the right hand side of all pages.
-* Contact form div extends too far out to the right.
+* Navbar overlaps Contact Us title at lower resolutions.
 
 # Deployment
 ## GitHub Pages
@@ -96,13 +97,15 @@ ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 
 ## Content
 
+Information on the psychological properties of colours mentioned in this README was found [here](https://www.colour-affects.co.uk/psychological-properties-of-colours/)
+
 ## Media
 
-Daffodil Hero Image: https://www.thedaffodilperspective.org
+Daffodil Hero Image: https://www.thedaffodilperspective.org/
 
-Testimonial image - Woman1: https://www.svgrepo.com/svg/169986/avatar
+Testimonial image - Woman1: https://www.svgrepo.com/svg/169986/avatar/
 
-Testimonial image - Woman2: https://www.svgrepo.com/svg/26996/avatar
+Testimonial image - Woman2: https://www.svgrepo.com/svg/26996/avatar/
 
 Castle image: https://handluggageonly.co.uk/2015/02/23/15-fairytale-castles-you-must-see-in-wales/
 
