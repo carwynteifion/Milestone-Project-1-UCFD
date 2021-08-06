@@ -80,9 +80,7 @@ TEST LINKING OF PAGES
 ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 
 ## Known Bugs
-* Navbar-items do not snap underneath navbar-brand on smaller viewport widths and instead overflow out of view.
 * Visible white space on the right hand side of all pages.
-* Navbar overlaps Contact Us title at lower resolutions.
 
 # Deployment
 ## GitHub Pages
