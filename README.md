@@ -51,7 +51,7 @@ MOCKUP IMAGE WITH LINK
 - CSS3
 
 ## Frameworks, Libraries and Programs used
-1. Bootstrap 4.5.2 - used to style the site, and aid with responsive design.
+1. Bootstrap 4.5.2 - used to style the site and aid with responsive design.
 2. Balsamiq - used in the design process to draw the site's wireframes.
 3. Google Fonts - used to import the Noto Sans JP and Exo fonts.
 4. Font Awesome - used to add icons on each page of the site to improve UX.
@@ -80,7 +80,8 @@ TEST LINKING OF PAGES
 ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 
 ## Known Bugs
-* Visible white space on the right hand side of all pages.
+- Hamburger icon wraps to next line in navbar on horizontal resolutions of 316px and lower.
+- Footer labels and inputs do not organise into columns as expected on some lower resolutions.
 
 # Deployment
 ## GitHub Pages
