@@ -150,10 +150,6 @@ label {
     margin-top: 8px;
 }
 
-form {
-    padding-bottom: 15px;
-}
-
 .socials a {
     font-size: 28px;
 }
@@ -178,6 +174,7 @@ form {
     position: absolute;
     top: 15%;
     left: 5%;
+    padding-bottom: 15px;
 }
 
 #contact-name, #contact-email, textarea {
@@ -195,20 +192,20 @@ form {
 
 /*------------------------------------------Font Awesome*/
 
-i {
+section i {
     display: none !important;
 }
 
 /*------------------------------------------Media Queries*/
 
-@media screen and (min-width: 316px) {
+@media screen and (min-width: 317px) {
      #title {
          font-size: 20px;
      }
 }
 
 @media screen and (min-width: 425px) {
-    i {
+    section i {
         display: contents !important;
     }
 }
