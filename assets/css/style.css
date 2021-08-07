@@ -10,7 +10,7 @@ html, body, nav {
 #title {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -193,4 +193,22 @@ form {
     position: relative;
 }
 
+/*------------------------------------------Font Awesome*/
+
+i {
+    display: none !important;
+}
+
 /*------------------------------------------Media Queries*/
+
+@media screen and (min-width: 316px) {
+     #title {
+         font-size: 20px;
+     }
+}
+
+@media screen and (min-width: 425px) {
+    i {
+        display: contents !important;
+    }
+}

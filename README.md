@@ -132,8 +132,7 @@ TEST LINKING OF PAGES
 ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 
 ### Known Bugs
-- Hamburger icon wraps to next line in navbar on horizontal resolutions of 316px and lower.
-- Footer labels and inputs do not organise into columns as expected on some lower resolutions.
+- Known bugs fixed - see below.
 
 ### Fixed Bugs
 - White line down the right-hand-side of the page no longer appears having applied `html, body, nav {overflow-x: hidden;}` in the CSS.
@@ -143,6 +142,10 @@ ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 - Elements within the contact form on the Contact Us page now remain consistent across all major screen sizes after applying `<br>` after each `<input>` and the `<textarea>` in the HTML.
 
 - Navbar content overflow was fixed by making the navbar collapsible and adding a hamburger icon in the HTML.
+
+- Hamburger icon no longer folds to next line on screen widths lower than 316px. This was fixed by applying a lower default font size in CSS from 20px to 16px, and readjusting to 20px with `@media screen and (min-width: 316px) {#title {font-size: 20px;}}`.
+
+- Footer labels and inputs are now grouped in Bootstrap `form-group` classes to prevent labels and inputs folding underneath each other one at a time.
 
 ## Deployment
 
