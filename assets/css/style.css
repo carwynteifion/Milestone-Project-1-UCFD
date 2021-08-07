@@ -33,7 +33,7 @@ nav ul li {
     color: #fff;
     font-family: "Exo", sans-serif;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 5px;
     padding-top: 3px;
@@ -208,4 +208,10 @@ section i {
     section i {
         display: contents !important;
     }
+}
+
+@media screen and (min-width: 292px) {
+    .cta h1 {
+        font-size: 48px;
+    }    
 }
