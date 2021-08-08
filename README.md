@@ -51,12 +51,12 @@ This is Dragon Courses' website. It is designed as a mobile-first responsive sit
 - CSS3
 
 ### Frameworks, Libraries and Programs used
-1. Bootstrap 4.5.2 - used to style the site and aid with responsive design.
-2. Balsamiq - used in the design process to draw the site's wireframes.
-3. Google Fonts - used to import the Noto Sans JP and Exo fonts.
-4. Font Awesome - used to add icons on each page of the site to improve UX.
-5. Git - used for version control via Gitpod. The terminal was used to commit and push code to GitHub.
-6. GitHub - used to store the project's pushed code from Git.
+1. [Bootstrap 4.5.2](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - used to style the site and aid with responsive design.
+2. [Balsamiq Wireframes](https://balsamiq.com/wireframes/) - used in the design process to draw the site's wireframes.
+3. [Google Fonts](https://fonts.google.com/) - used to import the Noto Sans JP and Exo fonts.
+4. [Font Awesome](https://fontawesome.com/) - used to add icons on each page of the site to improve UX.
+5. [Git](https://gitpod.io/) - used for version control via Gitpod. The terminal was used to commit and push code to GitHub.
+6. [GitHub](https://www.github.com/) - used to store the project's pushed code from Git.
 
 ## Testing
 The W3C Markup and CSS Validators were used to validate each page to ensure the project was free from errors.
@@ -155,7 +155,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
