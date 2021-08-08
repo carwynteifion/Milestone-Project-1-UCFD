@@ -11,12 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Home | Dragon Courses - Learn Welsh</title>
+    <title>Our Courses | Dragon Courses - Learn Welsh</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top uppercase" role="navigation">
-            <a href="index.html" id="title" class="navbar-brand">Dragon Courses <i class="fas fa-dragon"></i></a>
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top uppercase">
+            <a href="index.html" id="title" class="navbar-brand">Dragon Courses <i class="fas fa-dragon" aria-hidden="true"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,26 +28,26 @@
                 </ul>
             </div>
         </nav>
-        <div class="main-image">
+        <div id="main-image" role="img" aria-label="daffodils">
         </div>
     </header>
     <section>
-        <div class="container courses">
+        <div class="container" id="courses" aria-labelledby="courses-title">
             <div class="row">
                 <div class="col">
-                    <h1>Our Courses</h1>
+                    <h2 id="courses-title">Our Courses</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <h2>Beginner</h2>
+                    <h3>Beginner</h3>
                     <p>Totally new to Welsh? Or wanting to brush up on the basics? This course is the one for you! 
                         Learn to introduce yourself, learn colours, count to 20 and say short, simple sentences. We even have quizzes 
                         for you to test your knowledge!
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h2>Intermediate</h2>
+                    <h3>Intermediate</h3>
                     <p>This course is perfect if you have completed the Beginner course and want to continue your learning journey, 
                         or even if you already understand basic Welsh and want to jump right in. Here you'll learn conversational 
                         Welsh, different dialects, and become confident in day-to-day conversation. Try the quizzes to see how much 
@@ -55,7 +55,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h2>Advanced</h2>
+                    <h3>Advanced</h3>
                     <p>The big leagues! Choose this course if you have a good understanding of Welsh and want to be a Welsh-speaking 
                         champion! Learn all about mutations, become confident in writing in Welsh, and take our test to become certified. 
                         Perfect if you are considering a career involving the Welsh language. 
@@ -65,14 +65,14 @@
         </div>
     </section>
     <footer>
-        <div class="row sign-up bg-success text-light no-gutters">
+        <div id="sign-up" class="row bg-success text-light no-gutters" aria-labelledby="sign-up-title">
             <div class="col">
                 <div class="row">
                     <div class="col">
-                        <h1>Sign Up Now!</h1>
+                        <h1 id="sign-up-title">Sign Up Now!</h1>
                     </div>
                 </div>
-                <div class="row sign-up-form">
+                <div class="row" id="sign-up-form">
                     <div class="col">
                         <form method="post" action="https://formdump.codeinstitute.net/" class="form-inline justify-content-center">
                             <div class="form-group"> 
@@ -98,10 +98,10 @@
                     </div>
                 </div>
                 <a class="text-decoration-none" href="contact.html">Or contact us for more information</a>
-                <div class="row socials">
+                <div class="row" id="socials">
                     <div class="col">
-                        <a href="https://www.facebook.com/" target="_blank" aria-label="Go to our Facebook page (opens in new tab)"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://www.twitter.com/" target="_blank" aria-label="Go to our Twitter page (opens in new tab)"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Go to our Facebook page (opens in new tab)"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" aria-label="Go to our Twitter page (opens in new tab)"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

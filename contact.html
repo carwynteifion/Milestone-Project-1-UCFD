@@ -11,12 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Home | Dragon Courses - Learn Welsh</title>
+    <title>Contact Us | Dragon Courses - Learn Welsh</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top uppercase" role="navigation">
-            <a href="index.html" id="title" class="navbar-brand">Dragon Courses <i class="fas fa-dragon"></i></a>
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top uppercase">
+            <a href="index.html" id="title" class="navbar-brand">Dragon Courses <i class="fas fa-dragon" aria-hidden="true"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,15 +28,15 @@
                 </ul>
             </div>
         </nav>
-        <div class="contact-image" aria-label="image of Welsh castle">
-            <div class="contact-form row">
+        <div id="contact-image" role="img" aria-label="Welsh castle">
+            <div id="contact" class="row" aria-labelledby="contact-header">
                 <div class="col">
                     <div class="row">
                         <div class="col">
-                            <h1>Contact Us</h1>
+                            <h1 id="contact-header">Contact Us</h1>
                         </div>
                     </div>
-                    <form method="post" action="https://formdump.codeinstitute.net/">
+                    <form id="contact-form" method="post" action="https://formdump.codeinstitute.net/" aria-labelledby="contact-header">
                         <label for="contact-name">Name:</label>
                         <input type="text" id="contact-name" name="contact-name"><br>
                         <label for="contact-email">Email:</label>
@@ -49,14 +49,14 @@
         </div>
     </header>
     <footer>
-        <div class="row sign-up bg-success text-light no-gutters">
+        <div id="sign-up" class="row bg-success text-light no-gutters" aria-labelledby="sign-up-title"> 
             <div class="col">
                 <div class="row">
                     <div class="col">
-                        <h1>Sign Up Now!</h1>
+                        <h1 id="sign-up-title">Sign Up Now!</h1>
                     </div>
                 </div>
-                <div class="row sign-up-form">
+                <div class="row" id="sign-up-form">
                     <div class="col">
                         <form method="post" action="https://formdump.codeinstitute.net/" class="form-inline justify-content-center">
                             <div class="form-group"> 
@@ -82,10 +82,10 @@
                     </div>
                 </div>
                 <a class="text-decoration-none" href="courses.html">Or take a look at our courses</a>
-                <div class="row socials">
+                <div class="row" id="socials">
                     <div class="col">
-                        <a href="https://www.facebook.com/" target="_blank" aria-label="Go to our Facebook page (opens in new tab)"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://www.twitter.com/" target="_blank" aria-label="Go to our Twitter page (opens in new tab)"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" aria-label="Go to our Facebook page (opens in new tab)"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" aria-label="Go to our Twitter page (opens in new tab)"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

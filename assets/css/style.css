@@ -29,7 +29,7 @@ nav ul li {
     display: inline;
 }
 
-.cta h1 {
+#cta h1 {
     color: #fff;
     font-family: "Exo", sans-serif;
     font-weight: 600;
@@ -39,13 +39,13 @@ nav ul li {
     padding-top: 3px;
 }
 
-.cta a {
+#cta a {
     font-family: "Exo", sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
-.why-learn h1, .courses h1 {
+#why-learn h2, #courses h2 {
     font-weight: 600;
     font-size: 40px;
     margin-bottom: 10px;
@@ -56,12 +56,12 @@ nav ul li {
     font-size: 32px;
 }
 
-.why-learn, .courses {
+#why-learn, #courses {
     font-family: "Exo", sans-serif;
     padding: 20px 0 15px 0;
 }
 
-.why-learn {
+#why-learn {
     margin: 0px 20px 0px 20px;
 }
 
@@ -70,7 +70,7 @@ hr {
     padding: 0;
 }
 
-.testimonials {
+#testimonials {
     padding-top: 10px;
     padding-bottom: 20px;
     margin-left: 20px;
@@ -78,7 +78,7 @@ hr {
     font-family: "Exo", sans-serif;
 }
 
-.testimonials h1 {
+#testimonials h2 {
     padding-bottom: 10px;
 }
 
@@ -94,7 +94,7 @@ hr {
 
 /*------------------------------------------Heading*/
 
-.main-image {
+#main-image {
     background-image: url("../img/main-image.png");
     height: 360px;
     background-size: cover;
@@ -103,7 +103,7 @@ hr {
     position: relative;
 }
 
-.cta {
+#cta {
     position: absolute;
     top: 65%;
     left: 50%;
@@ -118,13 +118,13 @@ nav {
 
 /*------------------------------------------Footer*/
 
-.sign-up {
+#sign-up {
     text-align: center;
     font-family: "Exo", sans-serif;
     padding-top: 20px;
 }
 
-.sign-up h1 {
+#sign-up h1 {
     font-weight: 500;
     padding-bottom: 10px;
 }
@@ -150,13 +150,13 @@ label {
     margin-top: 8px;
 }
 
-.socials a {
+#socials a {
     font-size: 28px;
 }
 
 #submit, #contact-submit {
     background-color: yellow;
-    color: #2f2f2f;
+    color: #000;
     font-weight: 600;
     border-radius: 15px;
 }
@@ -167,7 +167,7 @@ label {
 
 /*------------------------------------------Contact Form*/
 
-.contact-form {
+#contact {
     font-family: "Exo", sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -181,7 +181,7 @@ label {
     border-radius: 15px;
 }
 
-.contact-image {
+#contact-image {
     background-image: url("../img/castle.jpg");
     height: 435px;
     background-size: cover;
@@ -211,7 +211,7 @@ section i {
 }
 
 @media screen and (min-width: 292px) {
-    .cta h1 {
+    #cta h1 {
         font-size: 48px;
     }    
 }

@@ -61,8 +61,8 @@ This is Dragon Courses' website. It is designed as a mobile-first responsive sit
 ## Testing
 The W3C Markup and CSS Validators were used to validate each page to ensure the project was free from errors.
 
-- W3C Markup Validator Results - LINK
-- W3C CSS Validator Results - LINK
+- [W3C Markup Validator Results](LINK)
+- [W3C CSS Validator Results](LINK)
 
 ### Testing User Stories from UX Section
 
