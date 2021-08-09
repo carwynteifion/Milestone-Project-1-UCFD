@@ -38,10 +38,10 @@
                     </div>
                     <form id="contact-form" method="post" action="https://formdump.codeinstitute.net/" aria-labelledby="contact-header">
                         <label for="contact-name">Name:</label>
-                        <input type="text" id="contact-name" name="contact-name"><br>
+                        <input type="text" id="contact-name" name="contact-name" required><br>
                         <label for="contact-email">Email:</label>
-                        <input type="email" id="contact-email" name="contact-email"><br>
-                        <textarea name="message" id="message" cols="30" rows="7" placeholder="Your message..."></textarea><br>
+                        <input type="email" id="contact-email" name="contact-email" required><br>
+                        <textarea name="message" id="message" cols="30" rows="7" placeholder="Your message..." required></textarea><br>
                         <input id="contact-submit" type="submit" value="Send!">
                     </form>
                 </div>
@@ -61,11 +61,11 @@
                         <form method="post" action="https://formdump.codeinstitute.net/" class="form-inline justify-content-center">
                             <div class="form-group"> 
                                 <label for="name">Name:</label>
-                                <input type="text" id="name" name="name">
+                                <input type="text" id="name" name="name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email:</label>
-                                <input type="email" id="email" name="email">
+                                <input type="email" id="email" name="email" required>
                             </div>
                             <div class="form-group">
                                 <label for="course">Course:</label>
