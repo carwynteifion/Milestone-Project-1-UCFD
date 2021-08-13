@@ -37,9 +37,9 @@ This is Dragon Courses' website. It is designed as a mobile-first responsive sit
     - I have used a hero image of close-up daffodils to emphasise the Welsh theme. Yellow catches the attention of the user amidst the mainly green theme, and has an association with confidence, friendliness, and creativity.
 
 - Wireframes
-  - [Desktop](https://www.dropbox.com/s/0r4fvt5p6ycwhgz/Dragon%20Courses%20-%20Desktop%20Wireframes.pdf?dl=0)
-  - [Tablet](https://www.dropbox.com/s/yogtgx2q393snlr/Dragon%20Courses%20-%20Tablet%20Wireframes.pdf?dl=0)
-  - [Mobile](https://www.dropbox.com/s/7vti0ih78uwonvt/Dragon%20Courses%20-%20Mobile%20Wireframes.pdf?dl=0)
+  - Home - [Desktop](/assets/wireframes/Home-Desktop.png), [Tablet](/assets/wireframes/Home-Tablet.png), [Mobile](/assets/wireframes/Home-Mobile.png)
+  - Our Courses - [Desktop](/assets/wireframes/Our-Courses-Desktop.png), [Tablet](/assets/wireframes/Our-Courses-Tablet.png), [Mobile](/assets/wireframes/Our-Courses-Mobile.png)
+  - Contact Us - [Desktop](/assets/wireframes/Contact-Us-Desktop.png), [Tablet](/assets/wireframes/Contact-Us-Tablet.png), [Mobile](/assets/wireframes/Contact-Us-Mobile.png)
 
 ## Features
 - Responsive on mobile, tablet and desktop sizes
@@ -147,6 +147,8 @@ ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 
 - Footer labels and inputs are now grouped in Bootstrap `form-group` classes to prevent labels and inputs folding underneath each other one at a time.
 
+- White space removed at bottom of contact and courses pages with Bootstrap flex classes.
+
 ## Deployment
 
 ### GitHub Pages
@@ -185,7 +187,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
+> Cloning into `Milestone-Project-1-UCFD-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
