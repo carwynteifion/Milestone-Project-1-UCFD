@@ -143,7 +143,7 @@ ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
 
 - Navbar content overflow was fixed by making the navbar collapsible and adding a hamburger icon in the HTML.
 
-- Hamburger icon no longer folds to next line on screen widths lower than 316px. This was fixed by applying a lower default font size in CSS from 20px to 16px, and readjusting to 20px with `@media screen and (min-width: 317px) {#title {font-size: 20px;}}`.
+- Hamburger icon no longer folds to next line on screen widths lower than 316px. This was fixed by applying a lower default font size in CSS from 20px to 16px, and readjusting to 20px with a `min-width` media query.
 
 - Footer labels and inputs are now grouped in Bootstrap `form-group` classes to prevent labels and inputs folding underneath each other one at a time.
 
