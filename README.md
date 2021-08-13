@@ -61,8 +61,10 @@ This is Dragon Courses' website. It is designed as a mobile-first responsive sit
 ## Testing
 The W3C Markup and CSS Validators were used to validate each page to ensure the project was free from errors.
 
-- [W3C Markup Validator Results](LINK)
-- [W3C CSS Validator Results](LINK)
+- [W3C Markup Validator Results - Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcarwynteifion.github.io%2FMilestone-Project-1-UCFD%2Findex.html)
+- [W3C Markup Validator Results - Our Courses](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcarwynteifion.github.io%2FMilestone-Project-1-UCFD%2Fcourses.html)
+- [W3C Markup Validator Results - Contact Us](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcarwynteifion.github.io%2FMilestone-Project-1-UCFD%2Fcontact.html)
+- [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcarwynteifion.github.io%2FMilestone-Project-1-UCFD%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Testing User Stories from UX Section
 
