@@ -134,9 +134,10 @@ nav {
     padding-top: 20px;
 }
 
-#sign-up h1 {
+#sign-up h2 {
     font-weight: 500;
     padding-bottom: 10px;
+    font-size: 48px;
 }
 
 footer a {
