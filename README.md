@@ -5,6 +5,37 @@ This is Dragon Courses' website. It is designed as a mobile-first responsive sit
 
 <h2 align="center"><img src="https://i.ibb.co/gPNZqsZ/responsive-design.png"></h2>
 
+# Table of Contents
+1. [User Experience](#user-experience)
+  - [User Stories](#user-stories)
+  - [Design](#design)
+  - [Wireframes](#wireframes)
+
+2. [Features](#features)
+
+3. [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+
+4. [Testing](testing)
+  - [HTML and CSS Validation](#html-and-css-validation)
+  - [Testing User Stories from UX Section](#testing-user-stories-from-ux-section)
+  - [Further Testing](#further-testing)
+  - [Known Bugs](#known-bugs)
+  - [Fixed Bugs](#fixed-bugs)
+
+5. [Deployment](#deployment)
+  - [GitHub Pages](#github-pages)
+  - [Forking the GitHub Repository](#forking-the-github-repository)
+  - [Making a Local Clone](#making-a-local-clone)
+
+6. [Credits](#credits)
+  - [Code](#code)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
+
+
 ## User Experience
 - User stories
   - First Time Visitor Goals
@@ -59,6 +90,8 @@ This is Dragon Courses' website. It is designed as a mobile-first responsive sit
 6. [GitHub](https://www.github.com/) - used to store the project's pushed code from Git.
 
 ## Testing
+
+### HTML and CSS Validation
 The W3C Markup and CSS Validators were used to validate each page to ensure the project was free from errors.
 
 - [W3C Markup Validator Results - Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcarwynteifion.github.io%2FMilestone-Project-1-UCFD%2Findex.html)
@@ -161,24 +194,24 @@ Family also assisted in testing the site, and reported no major issues.
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/carwynteifion/Milestone-Project-1-UCFD)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+4. Under "Source", click the dropdown called "None" and select "Main Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://carwynteifion.github.io/Milestone-Project-1-UCFD/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/carwynteifion/Milestone-Project-1-UCFD)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/carwynteifion/Milestone-Project-1-UCFD)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -224,8 +257,12 @@ Testimonial image - Woman2: https://www.svgrepo.com/svg/26996/avatar/
 
 Castle image: https://handluggageonly.co.uk/2015/02/23/15-fairytale-castles-you-must-see-in-wales/
 
+Favicon: https://fontawesome.com/v5.15/icons/dragon?style=solid/
+
 ### Acknowledgements
 
 My mentor, Chris, for giving such helpful feedback and being such an inspiration
 
 My fiancee, Isadora, and her mum, Kay, for UX/bug testing this site.
+
+[Back to top](#dragon-courses)
