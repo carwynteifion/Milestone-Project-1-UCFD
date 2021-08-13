@@ -123,13 +123,11 @@ The W3C Markup and CSS Validators were used to validate each page to ensure the 
       a. The sign-up form at the bottom of each page can be used to sign up for each progressive course, as it includes a drop-down field to choose which course to sign up to. SCREENSHOT
 
 ### Further Testing
-TEST ON MULTIPLE BROWSERS
+The site has been tested on Chrome, Edge, Firefox and DuckDuckGo on mobile, desktop and tablet devices of varying screen widths.
 
-TEST MULTIPLE VIEWPORTS - MOBILE, TABLET, DESKTOP
+Pages all link to each other without issue, and external links open a new tab as expected.
 
-TEST LINKING OF PAGES
-
-ASK IZZY AND KAY TO TEST FROM A USER PERSPECTIVE AND POINT OUT ANYTHING WRONG
+Family also assisted in testing the site, and reported no major issues.
 
 ### Known Bugs
 - Known bugs fixed - see below.
