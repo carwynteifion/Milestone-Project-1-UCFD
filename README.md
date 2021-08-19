@@ -3,7 +3,7 @@ Link to the live project here: https://carwynteifion.github.io/Milestone-Project
 
 This is Dragon Courses' website. It is designed as a mobile-first responsive site for prospective students wanting to learn Welsh to easily access and navigate.
 
-<h2 align="center"><img src="https://i.ibb.co/gPNZqsZ/responsive-design.png"></h2>
+<h2 align="center"><img src="assets/img/responsive.png"></h2>
 
 # Table of Contents
 1. [User Experience](#user-experience)
@@ -108,10 +108,10 @@ The W3C Markup and CSS Validators were used to validate each page to ensure the 
       - i. The home page greets users with a navigation bar that is clear and easy to read, so that they may navigate to the page they require. Underneath the navigation bar is a hero image with text and a "Choose a course" call to action button.
 
       - ii. The hero image is of daffodils; their traditional association with Wales and their status as Wales' national flower match up with the site's purpose of getting prospective students to sign up to a Welsh language course.
-      <h2 align="center"><img src="https://i.ibb.co/cvhVTrW/screenshot1.png"></h2>
+      <h2 align="center"><img src="assets/img/screenshot1.png"></h2>
 
       - iii. From the home page, the user can click the call to action button, choose an option from the navigation bar, or scroll down to reveal more information. At the bottom of the page is a sign-up form, as well as a smaller redirection call to action to invite the user to browse courses if they do not want to sign up just yet.
-      <h2 align="center"><img src="https://i.ibb.co/NYv2DrK/screenshot2.png"></h2>
+      <h2 align="center"><img src="assets/img/screenshot2.png"></h2>
 
     - b. As a first time visitor, I want to learn about the courses on offer so I can make an informed choice on which is best suited to me.
 
@@ -122,10 +122,10 @@ The W3C Markup and CSS Validators were used to validate each page to ensure the 
       - iii. At the bottom of the page is another smaller redirect call to action inviting the user to choose a course, having read more of the home page's content and deciding not to sign up yet.
 
       - iv. The "Our Courses" page provides clear guidance on each course. Content is clearly separated with accompanying headings to denote which course each paragraph is referring to. 
-      <h2 align="center"><img src="https://i.ibb.co/Wgyt58q/screenshot4.png"></h2>
+      <h2 align="center"><img src="assets/img/screenshot3.png"></h2>
 
       - v. Once the user has made a choice, they can sign up using the form found at the bottom of each page, or use the contact form on the "Contact Us" page for more information.
-      <h2 align="center"><img src="https://i.ibb.co/MNyxvpL/screenshot5.png"></h2>
+      <h2 align="center"><img src="assets/img/screenshot4.png"></h2>
 
     - c. As a first time visitor, I want to easily navigate through the site so I can find the information and content I need.
 
@@ -136,7 +136,7 @@ The W3C Markup and CSS Validators were used to validate each page to ensure the 
     - d. As a first time visitor, I want to read some testimonials so I can determine if the organisation is trustworthy.
 
       - i. After scrolling past the hero image and "Why Learn Welsh" sections, the user will notice the "Testimonials" section.
-      <h2 align="center"><img src="https://i.ibb.co/mt1d74Q/screenshot6.png"></h2>
+      <h2 align="center"><img src="assets/img/screenshot5.png"></h2>
 
       - ii. Social media links are included in the footer of each page.
 
@@ -161,7 +161,7 @@ The W3C Markup and CSS Validators were used to validate each page to ensure the 
     - a. As a frequent visitor, I want to sign up to more advanced courses, so I can progress in my learning.
 
       - i. The sign-up form at the bottom of each page can be used to sign up for each progressive course, as it includes a drop-down field to choose which course to sign up to.
-      <h2 align="center"><img src="https://i.ibb.co/qd4LndZ/screenshot7.png"></h2>
+      <h2 align="center"><img src="assets/img/screenshot6.png"></h2>
 
 ### Further Testing
 The site has been tested on Chrome, Edge, Firefox and DuckDuckGo on mobile, desktop and tablet devices of varying screen widths.
